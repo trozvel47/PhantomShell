@@ -4,15 +4,15 @@
     / /___/ / /___/ /_/ / /__/ ,< (__  )
     \____/_/_____/\____/\___/_/|_/____/v2.1
     
-### CiLocks | Android/IOS Hacking 📱
+### PhantomShell | Android/IOS Hacking 📱
 #### Crack Interface lockscreen, Metasploit and More Android/IOS Hacking
-![](https://img.shields.io/github/license/tegal1337/CiLocks)
-![](https://img.shields.io/github/issues/tegal1337/CiLocks)
-![](https://img.shields.io/github/issues-closed/tegal1337/CiLocks)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/tegal1337/CiLocks/issues)
-![](https://img.shields.io/github/forks/tegal1337/CiLocks)
-![](https://img.shields.io/github/stars/tegal1337/CiLocks)
-![](https://img.shields.io/github/last-commit/tegal1337/CiLocks)
+![](https://img.shields.io/github/license/tegal1337/PhantomShell)
+![](https://img.shields.io/github/issues/tegal1337/PhantomShell)
+![](https://img.shields.io/github/issues-closed/tegal1337/PhantomShell)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/tegal1337/PhantomShell/issues)
+![](https://img.shields.io/github/forks/tegal1337/PhantomShell)
+![](https://img.shields.io/github/stars/tegal1337/PhantomShell)
+![](https://img.shields.io/github/last-commit/tegal1337/PhantomShell)
 
 <img src ="https://img.shields.io/badge/Important-notice-red" />
 <h4>Please Don't Use for illegal Activity</h4>
@@ -53,11 +53,11 @@
 
   Screenshoot 01 | Screenshoot 02  | Screenshoot 03 
 :-------------------------:|:-------------------------:|:---------------------:
-![](https://github.com/tegal1337/CiLocks/blob/main/Screenshoot/cilocks01.png?raw=true)|![](https://github.com/tegal1337/CiLocks/blob/main/Screenshoot/cilocks02.png?raw=true)|![](https://github.com/tegal1337/CiLocks/blob/main/Screenshoot/cilocks03.png?raw=true)
+![](https://github.com/tegal1337/PhantomShell/blob/main/Screenshoot/cilocks01.png?raw=true)|![](https://github.com/tegal1337/PhantomShell/blob/main/Screenshoot/cilocks02.png?raw=true)|![](https://github.com/tegal1337/PhantomShell/blob/main/Screenshoot/cilocks03.png?raw=true)
 
   Screenshoot 04 | Screenshoot 05  | Screenshoot 06 
 :-------------------------:|:-------------------------:|:---------------------:
-![](https://github.com/tegal1337/CiLocks/blob/main/Screenshoot/cilocks04.png?raw=true)|![](https://github.com/tegal1337/CiLocks/blob/main/Screenshoot/cilocks05.png?raw=true)|![](https://github.com/tegal1337/CiLocks/blob/main/Screenshoot/cilocks06.png?raw=true)
+![](https://github.com/tegal1337/PhantomShell/blob/main/Screenshoot/cilocks04.png?raw=true)|![](https://github.com/tegal1337/PhantomShell/blob/main/Screenshoot/cilocks05.png?raw=true)|![](https://github.com/tegal1337/PhantomShell/blob/main/Screenshoot/cilocks06.png?raw=true)
 
 ### Requirements
     
@@ -82,9 +82,9 @@
 
 ### Installation For Linux 
 
-    git clone https://github.com/tegal1337/CiLocks
+    git clone https://github.com/tegal1337/PhantomShell
     
-    cd CiLocks
+    cd PhantomShell
     
     chmod +x cilocks
     
@@ -94,7 +94,7 @@
 
 
 <!--  After Following All Steps Just Type In Terminal **root@tegalsec:~** **./cilocks** -->
-or download <a href="https://github.com/tegal1337/CiLocks/releases/download/V2.1/Cilocks_V2.1.zip">here</a>
+or download <a href="https://github.com/tegal1337/PhantomShell/releases/download/V2.1/Cilocks_V2.1.zip">here</a>
 
 ### For Android Emulator
 
@@ -116,7 +116,7 @@ or download <a href="https://github.com/tegal1337/CiLocks/releases/download/V2.1
 
      Register on ngrok.com
      
-     Write the command on the path /CiLocks
+     Write the command on the path /PhantomShell
      # ./ngrok authtoken <TOKEN>
 
 #### Article & Video
@@ -126,11 +126,11 @@ or download <a href="https://github.com/tegal1337/CiLocks/releases/download/V2.1
 - Malware Tech https://www.youtube.com/watch?v=ZhBvWkGknKA
 - KitPloit https://www.kitploit.com/2021/05/cilocks-android-lockscreen-bypass.html
 
-#### Thanks to original Author of the tools used in CiLocks
+#### Thanks to original Author of the tools used in PhantomShell
 
 #### Contributors
 
-[![contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/tegal1337/CiLocks/issues)
+[![contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/tegal1337/PhantomShell/issues)
 <table>
   <tr>
     <td align="center"><a href="https://dalpan.github.io"><img src="https://avatars.githubusercontent.com/u/33548464?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Van Lyubov</b></sub></a></td>
